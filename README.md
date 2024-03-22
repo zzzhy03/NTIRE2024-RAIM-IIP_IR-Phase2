@@ -14,7 +14,9 @@ pip3 install -r requirements.txt
 
 ### Pretrained Model
 
-The pretrained model can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1oHzTMuhQV831PPxkloox_D07nyqmyI-9?usp=drive_link).
+The pretrained model can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1oHzTMuhQV831PPxkloox_D07nyqmyI-9?usp=drive_link), and put it under folder `pretrained`.
+
+
 
 ### Inference
 
@@ -23,4 +25,3 @@ The pretrained model can be downloaded from [Google Drive](https://drive.google.
 ``` shell
 python demo_phase2.py --input_folder xxx --output_folder xxx --kernel_model_path pretrained/net_kernel.pth --restore_model_path pretrained/net_g.pth
 ```
-
