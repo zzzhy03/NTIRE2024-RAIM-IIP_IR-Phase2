@@ -5,8 +5,8 @@ import argparse
 import os
 import cv2
 import numpy as np
-from bpnkernel_arch import BPNKernel
-from fftformer_arch import fftformer
+from arch.bpnkernel_arch import BPNKernel
+from arch.fftformer_arch import fftformer
 
 def rgb2gray(img):
     gray = np.mean(img, axis=2)

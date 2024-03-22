@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.utils.spectral_norm as spectral_norm
 import numbers
-from bpndeblur_arch import SPADEResnetBlock
+from arch.bpndeblur_arch import SPADEResnetBlock
 from einops import rearrange
 
 
