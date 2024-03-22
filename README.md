@@ -18,6 +18,8 @@ The pretrained model can be downloaded from [Google Drive](https://drive.google.
 
 ### Inference
 
+#### phase2
+
 ``` shell
 python demo_phase2.py --input_folder xxx --output_folder xxx --kernel_model_path pretrained/net_kernel.pth --restore_model_path pretrained/net_g.pth
 ```
