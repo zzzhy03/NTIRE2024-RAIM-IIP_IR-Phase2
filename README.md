@@ -9,7 +9,7 @@ This is the code repository of Restore Any Image Model (RAIM) in the Wild: An NT
 ### Installation
 
 ``` shell
-git clone https://github.com/zzzhy03/NTIRE2024-RAIM-IIP_IR.git
+git clone https://github.com/zzzhy03/NTIRE2024-RAIM-IIP_IR-Phase2.git
 cd NTIRE2024-RAIM-IIP_IR
 pip3 install -r requirements.txt
 ```
