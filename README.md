@@ -1,16 +1,16 @@
-# NTIRE2024_RAIM_iipir
+# NTIRE2024-RAIM-IIP_IR
 
 This is the code repository of Restore Any Image Model (RAIM) in the Wild: An NTIRE Challenge in Conjunction with CVPR 2024.
 
-## Team: **iip_ir**
+## Team: **IIP_IR**
 
 ## How to run?
 
 ### Installation
 
 ``` shell
-git clone https://github.com/zzzhy03/NTIRE2024_RAIM_iipir.git
-cd NTIRE2024_RAIM_iipir
+git clone https://github.com/zzzhy03/NTIRE2024-RAIM-IIP_IR.git
+cd NTIRE2024-RAIM-IIP_IR
 pip3 install -r requirements.txt
 ```
 
