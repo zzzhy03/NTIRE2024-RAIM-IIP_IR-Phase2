@@ -1,4 +1,4 @@
-# NTIRE2024-RAIM-IIP_IR
+# NTIRE2024-RAIM-IIP_IR-Phase2
 
 This is the code repository of Restore Any Image Model (RAIM) in the Wild: An NTIRE Challenge in Conjunction with CVPR 2024.
 

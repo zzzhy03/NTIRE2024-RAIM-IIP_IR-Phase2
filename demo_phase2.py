@@ -80,8 +80,11 @@ def main():
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             img = torch.from_numpy(img).permute(2, 0, 1).unsqueeze(0).float() / 255.0
             img = img.cuda()
+            
             kernel = kernel_model(img)
             deblur_img = restore_model(img, kernel)
+
+
             deblur_img = deblur_img.clamp(0, 1).squeeze().permute(1, 2, 0).cpu().numpy()
             deblur_img = cv2.cvtColor(deblur_img, cv2.COLOR_RGB2BGR)
             cv2.imwrite(os.path.join(args.output_folder, img_path), (deblur_img * 255).astype("uint8"))
